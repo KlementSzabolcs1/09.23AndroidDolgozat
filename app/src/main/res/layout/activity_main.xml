@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/text"
         android:layout_marginTop="280dp"
-        android:layout_marginLeft="205dp"
+        android:layout_marginLeft="185dp"
         android:textSize="30pt"
         android:textColor="@color/blue"
         android:text="0"
