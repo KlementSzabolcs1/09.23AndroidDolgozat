@@ -37,6 +37,7 @@
         android:layout_marginLeft="205dp"
         android:textSize="30pt"
         android:textColor="@color/blue"
+        android:text="0"
 
 
         />
