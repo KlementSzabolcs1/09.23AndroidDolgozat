@@ -25,8 +25,42 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 a++;
                 text.setText(a);
+                if (a > 0) {
+                    text.setTextColor(getColor(R.color.green));
+                }
+                else if (a == 0) {
+                    text.setTextColor(getColor(R.color.blue));
+                }
 
 
+
+
+
+            }
+        });
+
+        minuszgomb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                a--;
+                text.setText(a);
+                if (a < 0) {
+                    text.setTextColor(getColor(R.color.red));
+                }
+                else if (a == 0) {
+                    text.setTextColor(getColor(R.color.blue));
+                }
+
+
+            }
+        });
+
+        text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                a = 0;
+                text.setText(a);
+                text.setTextColor(getColor(R.color.blue));
 
             }
         });
